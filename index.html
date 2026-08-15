@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Project Ezrah Mata supports tracheostomy- and ventilator-dependent children and their families in the Philippines through medical supplies, caregiver education, awareness, and community support." />
+  <meta name="theme-color" content="#53b9a8" />
+  <title>Project Ezrah Mata | Care. Educate. Empower. Advocate.</title>
+
+  <!-- Tailwind CSS via CDN. This keeps the site easy to edit without a build step. -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Design tokens (colors, fonts, shadows) live in their own file — edit that,
+       not this page, to change the site's look and feel. -->
+  <script src="assets/js/tailwind.config.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Nunito:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/site.css" />
+</head>
+<body class="bg-cream text-ink antialiased">
+  <noscript>
+    <div style="padding:24px;background:#d9f5ef;color:#28413b;font-family:Arial,sans-serif;text-align:center;">
+      Please enable JavaScript to view the Project Ezrah Mata website.
+    </div>
+  </noscript>
+  <project-navbar></project-navbar>
+
+  <main>
+    <project-hero></project-hero>
+    <project-about></project-about>
+    <project-mission-vision></project-mission-vision>
+    <project-who-we-are></project-who-we-are>
+    <project-what-we-do></project-what-we-do>
+    <project-impact></project-impact>
+    <project-community></project-community>
+  </main>
+
+  <project-footer></project-footer>
+
+  <script src="components/navbar/navbar.js"></script>
+  <script src="components/hero/hero.js"></script>
+  <script src="components/about/about.js"></script>
+  <script src="components/mission-vision/mission-vision.js"></script>
+  <script src="components/who-we-are/who-we-are.js"></script>
+  <script src="components/what-we-do/what-we-do.js"></script>
+  <script src="components/impact/impact.js"></script>
+  <script src="components/community/community.js"></script>
+  <script src="components/footer/footer.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
