@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.projectezrahmata.org/sitemap.xml
+Sitemap: https://projectezrahmatainc.org/sitemap.xml
