@@ -24,20 +24,37 @@
       Please enable JavaScript to view the Project Ezrah Mata website.
     </div>
   </noscript>
-  <project-navbar></project-navbar>
+  <!--
+    🚦 LAUNCH SWITCH
+    Set to false while the site is still being finished — visitors will see the
+    "Under Construction" page instead of the full site. Flip to true when you're
+    ready to launch, and the full site below will show automatically.
+  -->
+  <script>
+    window.SITE_LIVE = false;
+  </script>
 
-  <main>
-    <project-hero></project-hero>
-    <project-about></project-about>
-    <project-mission-vision></project-mission-vision>
-    <project-who-we-are></project-who-we-are>
-    <project-what-we-do></project-what-we-do>
-    <project-impact></project-impact>
-    <project-community></project-community>
-  </main>
+  <div id="under-construction-wrapper">
+    <project-under-construction></project-under-construction>
+  </div>
 
-  <project-footer></project-footer>
+  <div id="site-live-wrapper" hidden>
+    <project-navbar></project-navbar>
 
+    <main>
+      <project-hero></project-hero>
+      <project-about></project-about>
+      <project-mission-vision></project-mission-vision>
+      <project-who-we-are></project-who-we-are>
+      <project-what-we-do></project-what-we-do>
+      <project-impact></project-impact>
+      <project-community></project-community>
+    </main>
+
+    <project-footer></project-footer>
+  </div>
+
+  <script src="components/under-construction/under-construction.js"></script>
   <script src="components/navbar/navbar.js"></script>
   <script src="components/hero/hero.js"></script>
   <script src="components/about/about.js"></script>
