@@ -9,9 +9,13 @@ class ProjectCommunity extends HTMLElement {
             <h2 class="mt-3 font-serif text-4xl font-light leading-tight text-white sm:text-6xl">There is room for <span class="italic text-ezrah-200">you</span> here.</h2>
             <p class="mt-5 max-w-xl text-base font-light leading-8 text-white/75 sm:text-lg">Support can take many forms: donating medical supplies, sharing knowledge, volunteering, amplifying awareness, partnering with us, or helping make future fundraising initiatives possible.</p>
 
-            <div class="mt-8 flex flex-wrap gap-3">
-              <a href="mailto:hello@projectezrahmata.org" class="rounded-full bg-white px-6 py-3 text-sm font-extrabold text-ezrah-800 transition hover:-translate-y-0.5 hover:bg-ezrah-50">Contact Project Ezrah Mata</a>
-              <a href="#home" class="rounded-full border border-white/30 px-6 py-3 text-sm font-extrabold text-white transition hover:bg-white/10">Back to Top</a>
+            <div class="mt-8 rounded-[2rem] border border-white/15 bg-white/10 p-5 backdrop-blur-md shadow-[0_30px_80px_rgba(6,17,24,0.18)] sm:p-6">
+              <div class="mb-4 text-lg font-extrabold uppercase tracking-[.18em] text-ezrah-200">Contact Project Ezrah Mata</div>
+              <div class="flex flex-col gap-3 text-sm font-medium text-white/90 sm:text-base">
+                <a href="mailto:projectezrahmatainc@gmail.com" class="transition hover:text-ezrah-200">Email Address: projectezrahmatainc@gmail.com</a>
+                <a href="tel:2109541427" class="transition hover:text-ezrah-200">Phone: 210-954-1427</a>
+              </div>
+              <a href="#home" class="mt-5 inline-flex w-fit rounded-full border border-white/30 px-6 py-3 text-sm font-extrabold text-white transition hover:bg-white/10">Back to Top</a>
             </div>
           </div>
 
