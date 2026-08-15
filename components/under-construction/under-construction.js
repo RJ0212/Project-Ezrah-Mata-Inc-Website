@@ -32,7 +32,7 @@ class ProjectUnderConstruction extends HTMLElement {
 
           <div class="reveal mt-4">
             <a
-              href="mailto:hello@projectezrahmata.org"
+              href="mailto:projectezrahmatainc@gmail.com"
               class="inline-flex items-center justify-center rounded-full bg-ezrah-700 px-7 py-3.5 text-sm font-extrabold tracking-wide text-white shadow-mint transition hover:-translate-y-0.5 hover:bg-ezrah-600"
             >
               Support Us
