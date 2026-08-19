@@ -2,20 +2,22 @@ class ProjectNavbar extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <header class="fixed top-0 inset-x-0 z-50 border-b border-ezrah-100 glass-nav">
-        <nav class="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-5 sm:px-8">
-          <a href="#home" class="flex items-center gap-3" aria-label="Project Ezrah Mata home">
+        <nav class="mx-auto flex h-[72px] max-w-[1420px] items-center justify-between px-4 sm:px-6 xl:px-8">
+          <a href="index.html" class="flex shrink-0 items-center gap-3" aria-label="Project Ezrah Mata home">
             <img src="assets/images/project-ezrah-mata-logo.png" alt="Project Ezrah Mata logo" class="logo-mark rounded-xl" />
-            <span class="hidden sm:block font-serif text-2xl font-semibold tracking-tight text-ezrah-800">Project <span class="text-gold italic">Ezrah Mata</span></span>
+            <span class="hidden font-serif text-[1.8rem] font-semibold leading-none tracking-tight text-ezrah-800 sm:block"><span class="inline-block">Project</span> <span class="text-gold italic">Ezrah Mata</span></span>
           </a>
 
-          <div class="hidden items-center gap-7 md:flex">
-            <a class="text-xs font-extrabold uppercase tracking-[.14em] text-slate-600 transition hover:text-ezrah-700" href="#about">About</a>
-            <a class="text-xs font-extrabold uppercase tracking-[.14em] text-slate-600 transition hover:text-ezrah-700" href="#mission">Mission &amp; Vision</a>
-            <a class="text-xs font-extrabold uppercase tracking-[.14em] text-slate-600 transition hover:text-ezrah-700" href="#who">Who We Support</a>
-            <a class="text-xs font-extrabold uppercase tracking-[.14em] text-slate-600 transition hover:text-ezrah-700" href="#what">What We Do</a>
-            <a class="text-xs font-extrabold uppercase tracking-[.14em] text-slate-600 transition hover:text-ezrah-700" href="#impact">Our Impact</a>
-            <a class="rounded-full bg-ezrah-700 px-5 py-2.5 text-xs font-extrabold uppercase tracking-[.12em] text-white shadow-mint transition hover:-translate-y-0.5 hover:bg-ezrah-600" href="#community">Support Us</a>
+          <div class="hidden flex-1 items-center justify-center gap-4 xl:gap-6 2xl:gap-8 md:flex">
+            <a class="whitespace-nowrap text-[10px] font-extrabold uppercase tracking-[.15em] text-slate-600 transition hover:text-ezrah-700" href="index.html#about">About</a>
+            <a class="whitespace-nowrap text-[10px] font-extrabold uppercase tracking-[.15em] text-slate-600 transition hover:text-ezrah-700" href="index.html#mission">Mission &amp; Vision</a>
+            <a class="whitespace-nowrap text-[10px] font-extrabold uppercase tracking-[.15em] text-slate-600 transition hover:text-ezrah-700" href="index.html#who">Who We Support</a>
+            <a class="whitespace-nowrap text-[10px] font-extrabold uppercase tracking-[.15em] text-slate-600 transition hover:text-ezrah-700" href="index.html#what">What We Do</a>
+            <a class="whitespace-nowrap text-[10px] font-extrabold uppercase tracking-[.15em] text-slate-600 transition hover:text-ezrah-700" href="index.html#impact">Our Impact</a>
+            <a class="whitespace-nowrap text-[10px] font-extrabold uppercase tracking-[.15em] text-slate-600 transition hover:text-ezrah-700" href="#board">Board of Directors</a>
           </div>
+
+          <a class="hidden rounded-full bg-ezrah-700 px-5 py-2.5 text-[10px] font-extrabold uppercase tracking-[.12em] text-white shadow-mint transition hover:-translate-y-0.5 hover:bg-ezrah-600 md:inline-flex" href="index.html#community">Support Us</a>
 
           <button id="nav-toggle" class="grid h-11 w-11 place-items-center rounded-xl border border-ezrah-100 text-ezrah-800 md:hidden" aria-label="Open navigation" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -27,12 +29,13 @@ class ProjectNavbar extends HTMLElement {
 
         <div id="mobile-nav" class="hidden border-t border-ezrah-100 bg-cream/95 px-5 py-4 md:hidden">
           <div class="mx-auto flex max-w-7xl flex-col gap-1">
-            <a class="mobile-link rounded-lg px-3 py-3 text-sm font-bold text-slate-700 hover:bg-ezrah-50" href="#about">About</a>
-            <a class="mobile-link rounded-lg px-3 py-3 text-sm font-bold text-slate-700 hover:bg-ezrah-50" href="#mission">Mission &amp; Vision</a>
-            <a class="mobile-link rounded-lg px-3 py-3 text-sm font-bold text-slate-700 hover:bg-ezrah-50" href="#who">Who We Support</a>
-            <a class="mobile-link rounded-lg px-3 py-3 text-sm font-bold text-slate-700 hover:bg-ezrah-50" href="#what">What We Do</a>
-            <a class="mobile-link rounded-lg px-3 py-3 text-sm font-bold text-slate-700 hover:bg-ezrah-50" href="#impact">Our Impact</a>
-            <a class="mobile-link mt-1 rounded-lg bg-ezrah-700 px-3 py-3 text-center text-sm font-extrabold text-white" href="#community">Support Us</a>
+            <a class="mobile-link rounded-lg px-3 py-3 text-sm font-bold text-slate-700 hover:bg-ezrah-50" href="index.html#about">About</a>
+            <a class="mobile-link rounded-lg px-3 py-3 text-sm font-bold text-slate-700 hover:bg-ezrah-50" href="index.html#mission">Mission &amp; Vision</a>
+            <a class="mobile-link rounded-lg px-3 py-3 text-sm font-bold text-slate-700 hover:bg-ezrah-50" href="index.html#who">Who We Support</a>
+            <a class="mobile-link rounded-lg px-3 py-3 text-sm font-bold text-slate-700 hover:bg-ezrah-50" href="index.html#what">What We Do</a>
+            <a class="mobile-link rounded-lg px-3 py-3 text-sm font-bold text-slate-700 hover:bg-ezrah-50" href="index.html#impact">Our Impact</a>
+            <a class="mobile-link rounded-lg px-3 py-3 text-sm font-bold text-slate-700 hover:bg-ezrah-50" href="#board">Board of Directors</a>
+            <a class="mobile-link mt-1 rounded-lg bg-ezrah-700 px-3 py-3 text-center text-sm font-extrabold text-white" href="index.html#community">Support Us</a>
           </div>
         </div>
       </header>

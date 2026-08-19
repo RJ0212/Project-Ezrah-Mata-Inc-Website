@@ -10,12 +10,13 @@ class ProjectFooter extends HTMLElement {
           <p class="mt-3 text-sm text-white/40">Supporting trach & ventilator-dependent children and their families in the Philippines.</p>
 
           <div class="mt-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs font-bold uppercase tracking-[.08em]">
-            <a class="transition hover:text-ezrah-200" href="#home">Home</a>
-            <a class="transition hover:text-ezrah-200" href="#about">About</a>
-            <a class="transition hover:text-ezrah-200" href="#mission">Mission &amp; Vision</a>
-            <a class="transition hover:text-ezrah-200" href="#what">What We Do</a>
-            <a class="transition hover:text-ezrah-200" href="#impact">Our Impact</a>
-            <a class="transition hover:text-ezrah-200" href="#community">Support</a>
+            <a class="transition hover:text-ezrah-200" href="index.html">Home</a>
+            <a class="transition hover:text-ezrah-200" href="index.html#about">About</a>
+            <a class="transition hover:text-ezrah-200" href="index.html#mission">Mission &amp; Vision</a>
+            <a class="transition hover:text-ezrah-200" href="index.html#what">What We Do</a>
+            <a class="transition hover:text-ezrah-200" href="index.html#impact">Our Impact</a>
+            <a class="transition hover:text-ezrah-200" href="#board">Board of Directors</a>
+            <a class="transition hover:text-ezrah-200" href="index.html#community">Support</a>
           </div>
 
           <div class="mt-7 border-t border-white/10 pt-6 text-xs text-white/30">© <span id="footer-year"></span> Project Ezrah Mata. Built with care.</div>
