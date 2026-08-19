@@ -1,7 +1,7 @@
 class ProjectBoardOfDirectors extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-      <section id="board" class="relative overflow-hidden bg-[radial-gradient(circle_at_top,_rgba(83,185,168,0.18),transparent_32%),linear-gradient(180deg,#f7f2e8_0%,#f4efe6_100%)] py-20 sm:py-28">
+      <section id="board" class="page-viewport relative overflow-hidden bg-[radial-gradient(circle_at_top,_rgba(83,185,168,0.18),transparent_32%),linear-gradient(180deg,#f7f2e8_0%,#f4efe6_100%)] py-20 sm:py-28">
         <div class="mx-auto max-w-7xl px-5 sm:px-8">
           <div class="max-w-3xl reveal">
             <div class="text-xs font-extrabold uppercase tracking-[.2em] text-ezrah-700">Leadership</div>

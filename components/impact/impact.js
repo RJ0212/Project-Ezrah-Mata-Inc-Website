@@ -8,7 +8,7 @@ class ProjectImpact extends HTMLElement {
     ];
 
     this.innerHTML = `
-      <section id="impact" class="bg-cream py-20 sm:py-28">
+      <section id="impact" class="page-viewport bg-cream py-20 sm:py-28">
         <div class="mx-auto max-w-7xl px-5 sm:px-8">
           <div class="grid items-end gap-8 lg:grid-cols-[1fr_auto]">
             <div class="reveal max-w-2xl">

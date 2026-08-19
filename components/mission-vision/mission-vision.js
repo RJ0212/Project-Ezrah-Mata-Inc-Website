@@ -8,7 +8,7 @@ class ProjectMissionVision extends HTMLElement {
     ];
 
     this.innerHTML = `
-      <section id="mission" class="relative bg-gradient-to-b from-white to-ezrah-50 pt-20 sm:pt-28">
+      <section id="mission" class="page-viewport relative bg-gradient-to-b from-white to-ezrah-50 sm:pt-28">
         <div class="mx-auto max-w-7xl px-5 sm:px-8">
           <div class="reveal max-w-2xl">
             <div class="text-xs font-extrabold uppercase tracking-[.17em] text-ezrah-700">Our Purpose</div>
@@ -39,13 +39,13 @@ class ProjectMissionVision extends HTMLElement {
           </div>
         </div>
 
-        <div class="relative w-[100vw] overflow-hidden" style="margin-left: calc(50% - 50vw); margin-top: -2px;">
+        <div class="relative full-bleed overflow-hidden">
           <svg viewBox="0 0 1440 90" preserveAspectRatio="none" class="block h-[72px] w-full text-ezrah-700 sm:h-[90px]" xmlns="http://www.w3.org/2000/svg">
             <path fill="currentColor" d="M0,48 C160,76 290,28 430,38 C580,50 700,92 880,56 C1060,20 1190,24 1440,62 L1440,90 L0,90 Z"></path>
           </svg>
         </div>
 
-        <div class="relative overflow-hidden bg-ezrah-700" style="width: 100vw; margin-left: calc(50% - 50vw);">
+        <div class="relative full-bleed bg-ezrah-700 overflow-hidden">
           <div class="absolute inset-0 bg-[radial-gradient(circle_at_85%_20%,rgba(255,255,255,.08),transparent_35%)]"></div>
           <div class="reveal relative mx-auto flex max-w-5xl flex-col items-center justify-center px-5 py-14 text-center sm:px-8 sm:py-16">
             <div class="text-xs font-extrabold uppercase tracking-[.17em] text-ezrah-100">Our Commitment</div>

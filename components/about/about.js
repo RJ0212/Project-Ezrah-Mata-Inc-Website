@@ -1,7 +1,7 @@
 class ProjectAbout extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-      <section id="about" class="bg-white py-20 sm:py-28">
+      <section id="about" class="page-viewport bg-white py-20 sm:py-28">
         <div class="mx-auto grid max-w-7xl items-center gap-10 px-5 sm:px-8 lg:grid-cols-2 lg:gap-20">
           <div class="reveal">
             <div class="rounded-[2rem] border border-ezrah-100 bg-ezrah-50 p-8 shadow-soft sm:p-10">

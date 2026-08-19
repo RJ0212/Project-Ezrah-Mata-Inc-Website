@@ -10,7 +10,7 @@ class ProjectWhatWeDo extends HTMLElement {
     ];
 
     this.innerHTML = `
-      <section id="what" class="bg-white py-20 sm:py-28">
+      <section id="what" class="page-viewport bg-white py-20 sm:py-28">
         <div class="mx-auto max-w-7xl px-5 sm:px-8">
           <div class="reveal max-w-2xl">
             <div class="text-xs font-extrabold uppercase tracking-[.17em] text-ezrah-700">What We Do</div>

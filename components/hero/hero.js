@@ -1,12 +1,12 @@
 class ProjectHero extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-      <section id="home" class="relative overflow-hidden gradient-hero pt-28 sm:pt-32">
+      <section id="home" class="page-viewport relative overflow-hidden gradient-hero">
         <div class="hero-orb hero-orb-a"></div>
         <div class="hero-orb hero-orb-b"></div>
         <div class="hero-orb hero-orb-c"></div>
 
-        <div class="mx-auto grid min-h-[calc(100vh-72px)] max-w-7xl items-center gap-12 px-5 py-16 sm:px-8 lg:grid-cols-[1.08fr_.92fr] lg:py-20">
+        <div class="mx-auto grid max-w-7xl items-center gap-12 px-5 py-8 sm:px-8 lg:grid-cols-[1.08fr_.92fr] lg:py-12">
           <div class="relative z-10 max-w-3xl">
             <div class="reveal inline-flex items-center gap-2 rounded-full border border-ezrah-200 bg-ezrah-100/70 px-4 py-2 text-xs font-extrabold uppercase tracking-[.14em] text-ezrah-800">
               <span class="h-2 w-2 rounded-full bg-ezrah-500"></span>

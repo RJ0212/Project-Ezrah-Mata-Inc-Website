@@ -1,7 +1,7 @@
 class ProjectCommunity extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-      <section id="community" class="relative overflow-hidden bg-ezrah-800 py-20 sm:py-28">
+      <section id="community" class="page-viewport relative overflow-hidden bg-ezrah-800 py-20 sm:py-28">
         <div class="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,rgba(199,169,105,.16),transparent_35%),radial-gradient(circle_at_10%_85%,rgba(134,215,201,.16),transparent_34%)]"></div>
         <div class="relative mx-auto grid max-w-7xl items-center gap-10 px-5 sm:px-8 lg:grid-cols-[1.05fr_.95fr] lg:gap-20">
           <div class="reveal">

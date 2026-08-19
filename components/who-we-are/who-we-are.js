@@ -8,7 +8,7 @@ class ProjectWhoWeAre extends HTMLElement {
     ];
 
     this.innerHTML = `
-      <section id="who" class="soft-grid bg-ezrah-50 py-20 sm:py-28">
+      <section id="who" class="page-viewport soft-grid bg-ezrah-50 py-20 sm:py-28">
         <div class="mx-auto max-w-7xl px-5 sm:px-8">
           <div class="reveal max-w-2xl">
             <div class="text-xs font-extrabold uppercase tracking-[.17em] text-ezrah-700">Who We Support</div>
