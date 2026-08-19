@@ -11,14 +11,11 @@ class ProjectBoardOfDirectors extends HTMLElement {
 
           <div class="mt-12 grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
             ${[
-              'Gloria Mata',
-              'Enrique Mata',
+              'Enrique & Gloria Mata',
               'Marithea Mendez',
-              'Cristina Sarro',
+              'DNP-FNP Cristina Sarro',
               'Ira Dunne',
-              'Eugenie Nkemka',
-              'Clarissa Miasco',
-              'Iries Sanceja',
+              'RN Eugenie Nkemka',
               'Marcellus Moss'
             ].map((name, index) => `
               <div class="reveal rounded-[2rem] border border-ezrah-100 bg-white/70 p-6 shadow-[0_24px_60px_rgba(22,41,41,0.08)] backdrop-blur-sm">
