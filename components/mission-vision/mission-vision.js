@@ -39,16 +39,17 @@ class ProjectMissionVision extends HTMLElement {
           </div>
         </div>
 
-        <!-- Wave divider, echoing the wave in the Project Ezrah Mata brand banner -->
-        <svg viewBox="0 0 1440 90" preserveAspectRatio="none" class="block h-[54px] w-full text-ezrah-700 sm:h-[70px]" xmlns="http://www.w3.org/2000/svg">
-          <path fill="currentColor" d="M0,32 C240,80 480,0 720,24 C960,48 1200,88 1440,40 L1440,90 L0,90 Z"></path>
-        </svg>
+        <div class="relative w-[100vw] overflow-hidden" style="margin-left: calc(50% - 50vw); margin-top: -2px;">
+          <svg viewBox="0 0 1440 90" preserveAspectRatio="none" class="block h-[72px] w-full text-ezrah-700 sm:h-[90px]" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor" d="M0,48 C160,76 290,28 430,38 C580,50 700,92 880,56 C1060,20 1190,24 1440,62 L1440,90 L0,90 Z"></path>
+          </svg>
+        </div>
 
-        <div class="relative -mt-px overflow-hidden bg-ezrah-700 py-14 sm:py-16">
+        <div class="relative overflow-hidden bg-ezrah-700" style="width: 100vw; margin-left: calc(50% - 50vw);">
           <div class="absolute inset-0 bg-[radial-gradient(circle_at_85%_20%,rgba(255,255,255,.08),transparent_35%)]"></div>
-          <div class="reveal relative mx-auto max-w-4xl px-5 text-center sm:px-8">
+          <div class="reveal relative mx-auto flex max-w-5xl flex-col items-center justify-center px-5 py-14 text-center sm:px-8 sm:py-16">
             <div class="text-xs font-extrabold uppercase tracking-[.17em] text-ezrah-100">Our Commitment</div>
-            <p class="mt-4 font-serif text-2xl font-light italic leading-relaxed text-white sm:text-3xl">“We care for the child, empower the caregiver, and build hope through community.”</p>
+            <p class="mt-4 max-w-4xl font-serif text-2xl font-light italic leading-relaxed text-white sm:text-3xl">“We care for the child, empower the caregiver, and build hope through community.”</p>
           </div>
         </div>
       </section>

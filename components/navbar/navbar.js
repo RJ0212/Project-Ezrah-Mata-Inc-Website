@@ -14,7 +14,7 @@ class ProjectNavbar extends HTMLElement {
             <a class="whitespace-nowrap text-[10px] font-extrabold uppercase tracking-[.15em] text-slate-600 transition hover:text-ezrah-700" href="index.html#who">Who We Support</a>
             <a class="whitespace-nowrap text-[10px] font-extrabold uppercase tracking-[.15em] text-slate-600 transition hover:text-ezrah-700" href="index.html#what">What We Do</a>
             <a class="whitespace-nowrap text-[10px] font-extrabold uppercase tracking-[.15em] text-slate-600 transition hover:text-ezrah-700" href="index.html#impact">Our Impact</a>
-            <a class="whitespace-nowrap text-[10px] font-extrabold uppercase tracking-[.15em] text-slate-600 transition hover:text-ezrah-700" href="#board">Board of Directors</a>
+            <a class="whitespace-nowrap text-[10px] font-extrabold uppercase tracking-[.15em] text-slate-600 transition hover:text-ezrah-700" href="#board">Meet our directors</a>
           </div>
 
           <a class="hidden rounded-full bg-ezrah-700 px-5 py-2.5 text-[10px] font-extrabold uppercase tracking-[.12em] text-white shadow-mint transition hover:-translate-y-0.5 hover:bg-ezrah-600 md:inline-flex" href="index.html#community">Support Us</a>
@@ -34,7 +34,7 @@ class ProjectNavbar extends HTMLElement {
             <a class="mobile-link rounded-lg px-3 py-3 text-sm font-bold text-slate-700 hover:bg-ezrah-50" href="index.html#who">Who We Support</a>
             <a class="mobile-link rounded-lg px-3 py-3 text-sm font-bold text-slate-700 hover:bg-ezrah-50" href="index.html#what">What We Do</a>
             <a class="mobile-link rounded-lg px-3 py-3 text-sm font-bold text-slate-700 hover:bg-ezrah-50" href="index.html#impact">Our Impact</a>
-            <a class="mobile-link rounded-lg px-3 py-3 text-sm font-bold text-slate-700 hover:bg-ezrah-50" href="#board">Board of Directors</a>
+            <a class="mobile-link rounded-lg px-3 py-3 text-sm font-bold text-slate-700 hover:bg-ezrah-50" href="#board">Meet our directors</a>
             <a class="mobile-link mt-1 rounded-lg bg-ezrah-700 px-3 py-3 text-center text-sm font-extrabold text-white" href="index.html#community">Support Us</a>
           </div>
         </div>

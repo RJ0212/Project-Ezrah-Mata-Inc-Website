@@ -5,7 +5,7 @@ class ProjectBoardOfDirectors extends HTMLElement {
         <div class="mx-auto max-w-7xl px-5 sm:px-8">
           <div class="max-w-3xl reveal">
             <div class="text-xs font-extrabold uppercase tracking-[.2em] text-ezrah-700">Leadership</div>
-            <h2 class="mt-4 font-serif text-5xl font-light leading-none text-ezrah-800 sm:text-6xl">Board of Directors</h2>
+            <h2 class="mt-4 font-serif text-5xl font-light leading-none text-ezrah-800 sm:text-6xl">Meet our directors</h2>
             <p class="mt-5 text-base leading-8 text-slate-700 sm:text-lg">The Project Ezrah Mata board brings together compassionate leaders and advocates dedicated to supporting complex-care children and families in the Philippines.</p>
           </div>
 
