@@ -11,17 +11,27 @@ class ProjectBoardOfDirectors extends HTMLElement {
 
           <div class="mt-12 grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
             ${[
-              'Enrique & Gloria Mata',
-              'Marithea Mendez',
-              'DNP-FNP Cristina Sarro',
-              'Ira Dunne',
-              'RN Eugenie Nkemka',
-              'Marcellus Moss'
-            ].map((name, index) => `
-              <div class="reveal rounded-[2rem] border border-ezrah-100 bg-white/70 p-6 shadow-[0_24px_60px_rgba(22,41,41,0.08)] backdrop-blur-sm">
-                <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-ezrah-100 font-serif text-2xl text-ezrah-800">${index + 1}</div>
-                <h3 class="font-serif text-3xl text-ezrah-800">${name}</h3>
-              </div>
+              { name: 'Enrique & Gloria Mata', img: 'enrique-gloria.jpg', bio: 'President & Vice President — Founders and advocates focused on family-centered care and community partnerships.' },
+              { name: 'Marithea Mendez', img: 'marithea.jpg', bio: 'Treasurer — Community organizer with experience in nonprofit program delivery.' },
+              { name: 'DNP-FNP Cristina Sarro', img: 'cristina.jpg', bio: 'Secretary — DNP‑FNP (Doctor of Nursing Practice, Family Nurse Practitioner). Clinical nurse leader focused on pediatric and primary respiratory care, and governance.' },
+              { name: 'Ira Dunne', img: 'ira.jpg', bio: 'Trustee — Volunteer coordinator and outreach strategist.' },
+              { name: 'RN Eugenie Nkemka', img: 'eugenie.jpg', bio: 'Trustee — Registered nurse focused on caregiver education and training.' },
+              { name: 'Marcellus Moss', img: 'marcellus.jpg', bio: 'Supports the board team by assisting with coordination, strategic initiatives, and resource development.' }
+            ].map((member) => `
+              <article class="reveal director-card">
+                <div class="card-media">
+                  <div class="placeholder" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                      <path d="M12 21s-7.5-4.35-9.2-6.02C-0.1 11.7 2.1 6 7 6c2.54 0 3.9 1.6 5 3.04C13.1 7.6 14.46 6 17 6c4.9 0 7.1 5.7 4.2 8.98C19.5 16.65 12 21 12 21z" fill="currentColor"/>
+                    </svg>
+                  </div>
+                  <img src="assets/images/board/${member.img}" alt="${member.name}" onload="this.parentNode.querySelector('.placeholder').style.display='none'" onerror="this.style.display='none'; this.parentNode.querySelector('.placeholder').style.display='flex'" />
+                </div>
+                <div class="card-body">
+                  <div class="card-name">${member.name}</div>
+                  <div class="card-bio">${member.bio}</div>
+                </div>
+              </article>
             `).join('')}
           </div>
         </div>

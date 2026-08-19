@@ -120,6 +120,61 @@ main, .page, .page-wrapper, .content {
   background-size: 36px 36px;
 }
 
+/* Board of directors card styles */
+.director-card {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(255,255,255,0.92));
+  border-radius: 1.25rem;
+  overflow: hidden;
+  border: 1px solid rgba(83,185,168,0.08);
+}
+.director-card .card-media {
+  width: 100%;
+  height: 180px;
+  background: #f3f7f6;
+  display: block;
+  position: relative;
+}
+.director-card .card-media img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.director-card .card-media .placeholder {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--cream);
+  color: var(--ezrah-deep);
+}
+.director-card .card-media .placeholder svg {
+  width: 46px;
+  height: 46px;
+  opacity: 1;
+}
+.director-card .card-body {
+  padding: 1.25rem;
+  text-align: center;
+}
+.director-card .card-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.375rem;
+  font-weight: 600;
+  color: var(--ezrah-800, #1f6b63);
+}
+.director-card .card-bio {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+  color: #47585a;
+  line-height: 1.5;
+}
+
 .stat-divider::after {
   content: '';
   position: absolute;
