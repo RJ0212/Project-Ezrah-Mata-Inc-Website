@@ -11,7 +11,7 @@ class ProjectBoardOfDirectors extends HTMLElement {
 
           <div class="mt-12 grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
             ${[
-              { name: 'Enrique & Gloria Mata', img: 'enrique-gloria.jpg', bio: 'President & Vice President — Founders and advocates focused on family-centered care and community partnerships.' },
+              { name: 'Gloria & Enrique Mata', img: 'enrique-gloria.jpg', bio: 'President & Vice President — Founders and advocates focused on family-centered care and community partnerships.' },
               { name: 'Marithea Mendez', img: 'marithea.jpg', bio: 'Treasurer — Community organizer with experience in nonprofit program delivery.' },
               { name: 'DNP-FNP Cristina Sarro', img: 'cristina.jpg', bio: 'Secretary — DNP‑FNP (Doctor of Nursing Practice, Family Nurse Practitioner). Clinical nurse leader focused on pediatric and primary respiratory care, and governance.' },
               { name: 'Ira Dunne', img: 'ira.jpg', bio: 'Trustee — Volunteer coordinator and outreach strategist.' },
