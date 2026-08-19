@@ -20,6 +20,9 @@ class ProjectFooter extends HTMLElement {
           </div>
 
           <div class="mt-7 border-t border-white/10 pt-6 text-xs text-white/30">© <span id="footer-year"></span> Project Ezrah Mata. Built with care.</div>
+          <div class="mt-4 rounded-md bg-ezrah-800 px-4 py-3 text-sm text-white">
+            Project Ezrah Mata Inc. — EIN: 42-4498343.
+          </div>
         </div>
       </footer>
     `;

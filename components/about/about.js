@@ -19,6 +19,10 @@ class ProjectAbout extends HTMLElement {
               Project Ezrah Mata is a nonprofit organization registered in Texas with a mission centered on tracheostomy- and ventilator-dependent children in the Philippines. We help families access practical resources while making caregiver knowledge and awareness part of the support system.
             </p>
 
+            <div class="mt-6 rounded-md border border-ezrah-100 bg-ezrah-50 p-4 text-sm text-ezrah-800">
+              Project Ezrah Mata Inc. — EIN: 42-4498343.
+            </div>
+
             <a href="#mission" class="group mt-8 inline-flex items-center gap-2 text-sm font-extrabold uppercase tracking-[.1em] text-ezrah-700 transition hover:text-ezrah-800">
               Read our Vision &amp; Mission
               <span aria-hidden="true" class="transition group-hover:translate-x-0.5">↓</span>
